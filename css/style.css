@@ -97,7 +97,7 @@ main ul li{
     display: inline-block;
     width: calc(100% / 3 - .5rem);
     vertical-align: top;
-    border: solid .1rem #ccc;
+/*border: solid .1rem #ccc;*/
     padding:  .1rem .1rem  0  0;
     
     
@@ -176,7 +176,7 @@ aside h2{
 
 .imag-2{
     animation: imag-2 4s linear 1 alternate ;
-    animation-delay: 7s;
+    animation-delay: 3s;
 }
 
 .imag-2:hover{
@@ -186,12 +186,15 @@ aside h2{
 @keyframes imag-2 {
     0%{
         transform: rotate(0deg);
+        
     }
     20%{
         transform: rotate(-360deg);
+        
     }
     30%{
         transform: rotate(0deg);
+       
     }
     
 }
@@ -202,7 +205,7 @@ aside h2{
 
 .card{
     animation: card .4s linear 3 alternate;
-    animation-delay: 9s;
+    animation-delay: 5s;
 }
 
 
@@ -228,7 +231,7 @@ aside h2{
 
 .imag-3{
     animation: card .3s linear 1 alternate;
-    animation-delay: 10s;
+    animation-delay: 6s;
 }
 
 
@@ -239,6 +242,6 @@ aside h2{
 
 @keyframes imag-3 {
    0%{
-       transform: scale(2);
+       transform: scale(1);
    }
 }
